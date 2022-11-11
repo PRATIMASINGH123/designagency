@@ -76,6 +76,14 @@
         
 }
 
+@media only screen and ( max-width : 361px){
+    .heading , .subHeading{
+        top: 230px;
+        left: 70px;
+    }
+}
+
+
 @media only screen and ( max-width : 321px) {
 
     .heading , .subHeading{
