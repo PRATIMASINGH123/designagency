@@ -55,3 +55,91 @@
     background-color: white;
     color: black;
 }
+
+@media only screen and (max-width : 769px) {
+
+    .navLinks{
+        gap: 10px;
+        font-size: 12px;
+    }
+    .leftContent{
+        gap: 50px;
+    }
+
+    .headerButtons button{
+        padding: 2%  2%;
+        font-size: 11px;
+        width: 100%;
+        border: none;
+        border-radius: 20px;   
+        
+    }
+
+    .headerButtons{ 
+        gap: 10px;
+    }
+
+}
+
+@media only screen and (max-width : 426px ){
+
+    .navLinks{
+        font-size: 9px;
+    }
+
+    .leftContent{
+        gap: 20px;
+    }
+
+    .headerButtons{
+        width: 23%;
+        flex-direction: column;
+        gap: 5px;
+        margin-right: 3%;
+    }
+    .headerButtons button{
+        padding: 3% 3%;
+        font-size: 9px;
+    }
+    
+}
+
+@media only screen and (max-width : 376px){
+    .navLinks{
+        gap: 5px;
+    }
+    .leftContent{
+        gap: 12px;
+    }
+    .logo{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width : 321px ) {
+
+    .navLinks{
+        gap: 5px;
+        font-size: 8px;
+    }
+    .logo{
+        font-size: 10px;
+    }
+    
+    .leftContent{
+        gap:7px;
+    }
+    
+  .headerButtons button{
+
+    padding: 5% 1%;
+    font-size: 9px;
+  }
+  .headerButtons{
+    width: 27%;
+  }
+
+  .logo{
+    font-size: 9px;
+  }
+}

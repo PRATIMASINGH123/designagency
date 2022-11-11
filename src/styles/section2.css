@@ -54,3 +54,48 @@ font-weight: 200;
     min-width: 35%;
     max-width: 35%;
 }
+
+@media only screen and (max-width : 769px ){
+    .section2Main{
+        margin-left: 35%;
+        gap: 50px;
+        font-size: 12px;
+    }
+    .contentsS2{
+        width: 25%;
+        margin-top: 15%;
+        font-size: 8px;
+    }
+
+    .contentsS2 img{
+        min-width: 40%;
+        max-width: 60%;
+    }
+
+}
+
+@media only screen and ( max-width: 426px ){
+
+    .section2Main{
+        gap: 60px;
+    }
+    .contentsS2{
+        font-size: 7px;
+    }
+
+   .headings2{
+    font-size: 18px;
+   }
+    
+}
+
+@media only screen and ( max-width : 321px){
+
+    .section2Main{
+        gap: 70px;
+        margin-left: 25%;
+    }
+    .contentsS2{
+        font-size: 7px;
+    }
+}

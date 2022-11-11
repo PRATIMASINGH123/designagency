@@ -1,5 +1,6 @@
 .LandingPage{
-  height: 99vh;
+  min-height: 99vh;
+  max-height: max-content;
   background-color: #00FF00;
   border-bottom-left-radius: 430px;
 }
