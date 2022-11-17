@@ -63,43 +63,66 @@ font-weight: 200;
 
 @media only screen and (max-width : 769px ){
     .section2Main{
-        margin-left: 35%;
-        gap: 50px;
-        font-size: 12px;
+       
     }
     .contentsS2{
-        width: 25%;
-        margin-top: 15%;
-        font-size: 8px;
+      
     }
 
     .contentsS2 img{
-        min-width: 40%;
-        max-width: 60%;
+       
     }
 
 }
 
 @media only screen and ( max-width: 426px ){
 
-    .section2Main{
-        gap: 60px;
-    }
-    .contentsS2{
-        font-size: 7px;
+    .section2Container{
+        min-height: 80vh;
     }
 
-   .headings2{
-    font-size: 18px;
-   }
+    .headings2{
+        top: 50px;
+        left: 0px;
+        font-size: 28px;
+    }
+    .smallHeading{
+        font-size: 9px;
+    }
+
+    .itemHolder{
+        left: 42px;
+        top: 0px;
+    }
+    .contentsS2 h2{
+        font-size: 8px;
+    }
+
+    .contentsS2{
+        flex: 0 0 43.122233%;
+    }
     
 }
-@media only screen and (max-width : 361px) {
+@media only screen and (max-width : 376px) {
 
-    .section2Main{
-        margin-left: 30%;
-        gap: 50px;
-        font-size: 12px;
+    .section2Container{
+        min-height: 80vh;
+    }
+
+    .headings2{
+        top: 100px;
+    }
+
+    .itemHolder{
+        top: 50px;
+        left: 42px;
+    }
+    .contentsS2 h2{
+        font-size: 8px;
+    }
+
+    .contentsS2{
+        flex: 0 0 43.122233%;
     }
 
     
@@ -107,11 +130,23 @@ font-weight: 200;
 
 @media only screen and ( max-width : 321px){
 
-    .section2Main{
-        gap: 70px;
-        margin-left: 25%;
+    .section2Container{
+        min-height: 80vh;
     }
+
+    .headings2{
+        top: 100px;
+    }
+
+    .itemHolder{
+        top: 50px;
+        left: 42px;
+    }
+    .contentsS2 h2{
+        font-size: 8px;
+    }
+
     .contentsS2{
-        font-size: 7px;
+        flex: 0 0 43.122233%;
     }
 }

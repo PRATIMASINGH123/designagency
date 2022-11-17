@@ -7,4 +7,23 @@
   background-color: #00FF00;
   border-radius: 0px 0px 0px 570px;
 }
+@media only screen and ( max-width : 426px) {
+  .landingPageDesign{
+    height: 66vh;
+    border-radius: 0px 0px 0px 100px;
+  }
+  .landingPage{
+    height: 70vh;
+  }
+}
 
+@media only screen and ( max-width : 321px ){
+  .landingPageDesign{
+    height: 44vh;
+    border-radius: 0px 0px 0px 100px;
+    
+  }
+  .landingPage{
+    height: 49vh;
+  }
+}

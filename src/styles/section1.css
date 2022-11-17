@@ -5,11 +5,10 @@
 }
 
 .mainContent{
-
     height:90vh;
     position: relative;
     background: transparent url('/public/img/Group\ 82.svg') 0% 0% no-repeat padding-box;
-    background-size: 70% 89%;
+    background-size: 70% 90%;
     opacity: 1;
 }
 .heading h1{
@@ -71,6 +70,7 @@
     .section1{
         min-height: 10vh;
         max-height: 10vh;
+        overflow-x: visible;
     }
 
     .heading , .subHeading {
@@ -94,7 +94,12 @@
 
     .heading , .subHeading{
         width: 80%;
-        left: 50px;
+        left: 61px;
+        top: 100px;
+    }
+    .mainContent{
+        height: 50vh;
+        left: 20px;
     }
     
 }
