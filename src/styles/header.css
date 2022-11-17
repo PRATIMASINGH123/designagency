@@ -114,7 +114,7 @@
     
 }
 
-@media only screen and (max-width : 376px){
+/* @media only screen and (max-width : 376px){
     .navLinks{
         gap: 5px;
     }
@@ -124,9 +124,9 @@
     .logo{
         font-size: 12px;
     }
-}
+} */
 
-@media only screen and (max-width : 321px ) {
+@media only screen and (max-width : 376px ) {
 
     .top{
         font-size: 12px;
