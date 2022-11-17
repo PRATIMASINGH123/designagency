@@ -1,7 +1,10 @@
-.LandingPage{
-  min-height: 99vh;
-  max-height: max-content;
+.landingPage{
+  height: 105vh;
+}
+
+.landingPageDesign{
+  height: 95vh;
   background-color: #00FF00;
-  border-bottom-left-radius: 430px;
+  border-radius: 0px 0px 0px 570px;
 }
 

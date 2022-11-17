@@ -20,12 +20,14 @@ function Section2(props){
                         {subheading}
                     </div>
                 </div>
-                <div className="section2Main"> 
+                <div className="section2Main">
+                    <div className="itemHolder">
                     {mapingVar.map((obj)=><div className="contentsS2" style={{color:contentColor}}>
                         <img src={obj.imgSrc} alt="not Found"/>
                         <h2>{obj.name}</h2>
                         </div>
                         )}
+                        </div>
                 </div>
             </div>
         </>

@@ -10,9 +10,11 @@ function App() {
     <>
   
 
-    <div className='LandingPage'>  
+    <div className='landingPage'> 
+      <div className='landingPageDesign'> 
       <Header />
       <Section1 />
+      </div>
     </div>
     <Section2 
       h1="MEASUREMENT"

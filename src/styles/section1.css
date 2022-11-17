@@ -1,30 +1,36 @@
 .section1{
-    position: relative;
     min-height: 80vh;
     max-height: max-content;
+    overflow-x: hidden;
 }
 
 .mainContent{
-    top: 241px;
-    left: 140px;
-    width: 100%;
+
     height:90vh;
+    position: relative;
     background: transparent url('/public/img/Group\ 82.svg') 0% 0% no-repeat padding-box;
-    background-size: 70% 90%;
+    background-size: 70% 89%;
     opacity: 1;
 }
+.heading h1{
+    width: fit-content;
+}
 .heading{
-    width: 45%;
+
+    margin: 0px;
+    font-family: 'Gilroy-Heavy', sans-serif;
     position: relative;
     top: 100px;
     left: 300px;
-    font-size: 30px;
+    font-size: 36px;
 }
 .subHeading{
-    width: 45%;
+
+    font-family: 'Gilroy-Bold', sans-serif;
     position: relative;
-    top: 100px;
-    left: 300px;
+    top:100px;
+    left:300px;
+    font-size: 18px;
 }
 
 @media only screen and (max-width : 1025px){

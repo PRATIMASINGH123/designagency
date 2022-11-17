@@ -1,15 +1,15 @@
 .section2Container{
     width: 100%;
-    min-height: 100vh;
-    max-height: fit-content;
-   
+    min-height: 110vh;
+    max-height: max-content;
+    overflow-x: hidden;
 }
 
 .headings2{
-    margin-top: 2%;
-    padding-top: 2%;
-    font-size: 29px;
-    font-weight: 700;
+   position: relative;
+   top: 100px;
+    font-size: 40px;
+    font-family: 'Gilroy-Heavy', sans-serif;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -19,40 +19,46 @@
 
 .smallHeading{
 text-align: center;
-font: normal normal medium 16px/55px Gilroy;
+font-family: 'Gilroy-Medium', sans-serif;
 letter-spacing: 0px;
-opacity: 1;
-font-size: 12px;
+font-size: 11px;
 font-weight: 200;
 }
 
 .section2Main{
-    margin: 0% auto;
-    max-width: 50%;
+    position: relative;
+    top: 100px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 80px;
-    color: white;
+    justify-content: center;
     align-items: center;
 }
 
+.itemHolder{
+    display: flex;
+    position: relative;
+    left: 160px;
+    flex-wrap: wrap;
+    color: white;
+}
+
 .contentsS2{
-    width: 20%;
+    flex: 0 0 30.122233%;
     margin-top: 5%;
     display: flex;
     align-items: center;
     gap: 20px;
     font-size: 10px;
-    flex-wrap: wrap;
 }
 
 .contentsS2 h2{
+    font-family: 'Gilroy-Bold', sans-serif;
     width: 50%;
+    font-size: 13px;
 }
 
 .contentsS2 img{
-    min-width: 35%;
-    max-width: 35%;
+   min-width: 12%;
+   max-width: 14%;
 }
 
 @media only screen and (max-width : 769px ){
