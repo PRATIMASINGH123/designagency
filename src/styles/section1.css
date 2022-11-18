@@ -57,31 +57,11 @@
 
 }
 
-@media only screen and ( max-width : 427px ){
 
-    .heading , .subHeading{
-        /* top: 120px; */
-        /* width: 60%; */
-        /* left: 120px; */
-    }
-
-    .mainContent{
-        margin-left: 5%;
-        width: 400px;
-    }
-    
-}
-
-@media only screen and (max-width : 415px){
-    .mainContent{
-        height: 400px;
-        top: 10px;
-        left: 20px;
-    }
-    .heading{
-        
-    }
-}
+@media only screen and (max-width : 415px ),
+            screen and (max-height : 897px){
+                
+            }
 
 @media only screen and (max-width : 376px) {
 
