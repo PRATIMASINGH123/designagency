@@ -41,13 +41,13 @@
   }
 }
 
-@media only screen and ( max-width : 428px) {
+@media only screen and ( max-width : 426px) {
   .landingPageDesign{
     height: 41.5vh;
-    border-radius: 0px 0px 0px 100px;
+    border-radius: 0px 0px 0px 60px;
   }
   .landingPage{
-    height: 43vh;
+    height: 47vh;
   }
 }
 
