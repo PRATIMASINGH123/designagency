@@ -54,12 +54,12 @@
 
 @media only screen and ( max-width : 376px ){
   .landingPageDesign{
-    height: 37vh;
-    border-radius: 0px 0px 0px 70px;
+    height: 32vh;
+    border-radius: 0px 0px 0px 60px;
     
   }
   .landingPage{
-    height: 39vh;
+    height: 36vh;
   }
 }
 @media only screen and (max-width : 357px){
