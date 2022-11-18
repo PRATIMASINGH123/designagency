@@ -5,7 +5,7 @@
 }
 
 .mainContent{
-    height:90vh;
+    height: 620px;
     position: relative;
     background: transparent url('/public/img/Group\ 82.svg') 0% 0% no-repeat padding-box;
     background-size: 70% 90%;
@@ -15,54 +15,67 @@
     width: fit-content;
 }
 .heading{
-
     margin: 0px;
     font-family: 'Gilroy-Heavy', sans-serif;
     position: relative;
     top: 100px;
-    left: 300px;
-    font-size: 36px;
+    /* left: 300px; */
+    left: calc(61px + (300 - 16) * (100vw - 320px) / (1920 - 320) );
+    font-size: calc(9px + (55 - 20) * (100vw - 320px) / (1920 - 320));
 }
 .subHeading{
 
     font-family: 'Gilroy-Bold', sans-serif;
     position: relative;
     top:100px;
-    left:300px;
-    font-size: 18px;
+    left: calc(61px + (300 - 16) * (100vw - 320px) / (1920 - 320) );
+    font-size: calc(5px + (19 - 5) * (100vw - 320px) / (1920 - 320));
+}
+
+@media only screen and ( max-width : 1441px){
+    .mainContent{
+        height: 85vh;
+    }
+}
+
+@media only screen and ( max-width : 1296px) {
+    .mainContent{
+        height: 80vh;
+    }
+    
 }
 
 @media only screen and (max-width : 1025px){
-    .heading{
-        font-size: 13px;
-    }
 
-.subHeading{
-    font-size: 12px;
-    width: 30%;
+.mainContent{
+    height: 60vh;
 }
 
 }
 
 @media only screen and (max-width : 769px) {
 
-    .heading{
-        left: 200px;
-    }
-    .subHeading{
-        left: 200px;
-    }
 }
 
 @media only screen and ( max-width : 426px ){
 
     .heading , .subHeading{
-        top: 120px;
+        /* top: 120px; */
         width: 60%;
-        left: 120px;
-        font-size: 10px;
+        /* left: 120px; */
     }
     
+}
+
+@media only screen and (max-width : 415px){
+    .mainContent{
+        height: 400px;
+        top: 10px;
+        left: 20px;
+    }
+    .heading{
+        
+    }
 }
 
 @media only screen and (max-width : 376px) {
@@ -74,18 +87,28 @@
     }
 
     .heading , .subHeading {
-        top:130px;
+        top:100px;
         width: 60%;
-        left: 110px;
-        font-size: 9px;
+        /* left: 62px; */
+    }
+
+    .mainContent{
+        left: 12px;
+        height: 60vh;
     }
         
 }
 
 @media only screen and ( max-width : 361px){
     .heading , .subHeading{
-        top: 230px;
-        left: 70px;
+        /* top: 230px; */
+        /* left: 70px; */
+    }
+}
+
+@media only screen and (max-width : 357px){
+    .mainContent{
+        height: 40vh;
     }
 }
 
@@ -94,7 +117,7 @@
 
     .heading , .subHeading{
         width: 80%;
-        left: 61px;
+        /* left: 61px; */
         top: 100px;
     }
     .mainContent{

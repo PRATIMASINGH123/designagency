@@ -60,19 +60,20 @@ font-weight: 200;
    min-width: 12%;
    max-width: 14%;
 }
+@media only screen and ( max-width : 1441px){
+   .itemHolder{
+    left: 115px;
+   }
+  }
+  
+@media only screen and (max-width : 541px ){
 
-@media only screen and (max-width : 769px ){
-    .section2Main{
-       
-    }
-    .contentsS2{
-      
-    }
-
-    .contentsS2 img{
-       
-    }
-
+.itemHolder{
+    left: 35px;
+}
+.section2Container{
+    min-height: 75vh;
+}
 }
 
 @media only screen and ( max-width: 426px ){

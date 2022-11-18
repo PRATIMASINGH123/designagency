@@ -3,10 +3,60 @@
 }
 
 .landingPageDesign{
-  height: 95vh;
+  height: 94vh;
   background-color: #00FF00;
-  border-radius: 0px 0px 0px 570px;
+  border-radius: 0px 0px 0px 450px;
 }
+@media only screen and ( max-width : 1441px){
+  .landingPageDesign{
+    height: 87.1vh;
+    border-radius: 0px 0px 0px 350px;
+  }
+  .landingPage{
+    height: 90vh;
+  }
+}
+
+
+@media only screen and ( max-width : 1296px) {
+ 
+  .landingPageDesign{
+    height: 88vh;
+    border-radius: 0px 0px 0px 300px;
+  }
+  
+}
+
+@media only screen and ( max-width : 1025px){
+  .landingPage{
+    height: 67vh;
+  }
+  .landingPageDesign{
+    height: 65.2vh;
+    border-radius: 0px 0px 0px 300px;
+  }
+}
+
+@media only screen and ( max-width : 769px){
+  .landingPage{
+    height: 67vh;
+  }
+  .landingPageDesign{
+    height: 64.6vh;
+    border-radius: 0px 0px 0px 200px;
+  }
+}
+
+@media only screen and ( max-width : 540px){
+  .landingPage{
+    height: 57vh;
+  }
+  .landingPageDesign{
+    height: 54.2vh;
+    border-radius: 0px 0px 0px 120px;
+  }
+}
+
 @media only screen and ( max-width : 426px) {
   .landingPageDesign{
     height: 66vh;
@@ -14,6 +64,37 @@
   }
   .landingPage{
     height: 70vh;
+  }
+}
+@media only screen and (max-width : 415px){
+  .landingPageDesign{
+    height: 55.5vh;
+    border-radius: 0px 0px 0px 100px;
+    
+  }
+  .landingPage{
+    height: 58vh;
+  }
+}
+@media only screen and ( max-width : 376px ){
+  .landingPageDesign{
+    height: 51.5vh;
+    border-radius: 0px 0px 0px 100px;
+    
+  }
+  .landingPage{
+    height: 55vh;
+  }
+}
+
+@media only screen and (max-width : 357px){
+  .landingPageDesign{
+    height: 35.5vh;
+    border-radius: 0px 0px 0px 100px;
+    
+  }
+  .landingPage{
+    height: 38vh;
   }
 }
 
