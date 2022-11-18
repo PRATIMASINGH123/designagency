@@ -67,18 +67,19 @@
     }
 
     .heading , .subHeading {
-        top:50px;
-        /* left: 62px; */
+        top:100px;
         left: 30px;
     }
 
     .heading{
-        font-size: 9px;
+        font-size: 8px;
     }
    
     .mainContent{
+        margin-left: 5%;
+        height: auto;
         width: fit-content;
-        height: 200px;
+        height: 293px;
     }
         
 }
