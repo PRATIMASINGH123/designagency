@@ -114,15 +114,26 @@
 
 
 @media only screen and ( max-width : 321px) {
+    .heading{
 
-    .heading , .subHeading{
-        width: 80%;
-        /* left: 61px; */
-        top: 100px;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin: 0%;
+        padding: 0%;
+        
     }
+    .heading , .subHeading{
+        width: 100%;
+        top: 50px;
+        left: 30px;
+    }
+    .heading{
+        font-size: 10px;
+    }
+    
     .mainContent{
-        height: 50vh;
-        left: 20px;
+        max-width: max-content;
+        height: 200px;
     }
     
 }
