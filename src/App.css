@@ -28,10 +28,10 @@
 
 @media only screen and ( max-width : 769px){
   .landingPage{
-    height: 67vh;
+    height: 70vh;
   }
   .landingPageDesign{
-    height: 64.6vh;
+    height: 63.7vh;
     border-radius: 0px 0px 0px 200px;
   }
 }
@@ -46,25 +46,25 @@
   }
 }
 
-@media only screen and ( max-width : 426px) {
+@media only screen and ( max-width : 428px) {
   .landingPageDesign{
-    height: 41.5vh;
-    border-radius: 0px 0px 0px 60px;
+    height: 34.5vh;
+    border-radius: 0px 0px 0px 103px;
   }
   .landingPage{
-    height: 47vh;
+    height: 40vh;
   }
 }
 
 
 @media only screen and ( max-width : 376px ){
   .landingPageDesign{
-    height: 32vh;
-    border-radius: 0px 0px 0px 60px;
+    height: 28vh;
+    border-radius: 0px 0px 0px 100px;
     
   }
   .landingPage{
-    height: 36vh;
+    height: 35vh;
   }
 }
 @media only screen and (max-width : 357px){
@@ -80,11 +80,11 @@
 
 @media only screen and ( max-width : 321px ){
   .landingPageDesign{
-    height: 30vh;
-    border-radius: 0px 0px 0px 65px;
+    height: 25.3vh;
+    border-radius: 0px 0px 0px 90px;
     
   }
   .landingPage{
-    height: 34vh;
+    height: 30vh;
   }
 }

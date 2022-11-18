@@ -57,7 +57,10 @@
 
 @media only screen and ( max-width : 428px) {
     .mainContent{
-        height: 300px;
+        height: 200px;
+    }
+    .heading , .subHeading {
+        top: 50px;
     }
   }
 
@@ -80,10 +83,11 @@
     }
    
     .mainContent{
-        margin-left: 5%;
-        height: auto;
-        width: fit-content;
-        height: 293px;
+        height: 150px;
+    }
+    .heading , .subHeading {
+        top: 35px;
+        left: 80px;
     }
         
 }
@@ -106,17 +110,16 @@
         
     }
     .heading , .subHeading{
-        width: 100%;
-        top: 50px;
-        left: 30px;
+        width: 50%;
+        top: 20px;
+        left: 60px;
     }
     .heading{
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .mainContent{
-        max-width: max-content;
-        height: 200px;
+        height: 120px;
     }
     
 }
