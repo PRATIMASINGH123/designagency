@@ -48,7 +48,7 @@
 @media only screen and (max-width : 1025px){
 
 .mainContent{
-    height: 60vh;
+    height: 390px;
 }
 
 }
@@ -61,8 +61,13 @@
 
     .heading , .subHeading{
         /* top: 120px; */
-        width: 60%;
+        /* width: 60%; */
         /* left: 120px; */
+    }
+
+    .mainContent{
+        margin-left: 5%;
+        width: 400px;
     }
     
 }
@@ -87,14 +92,18 @@
     }
 
     .heading , .subHeading {
-        top:100px;
-        width: 60%;
+        top:50px;
         /* left: 62px; */
+        left: 30px;
     }
 
+    .heading{
+        font-size: 9px;
+    }
+   
     .mainContent{
-        left: 12px;
-        height: 60vh;
+        width: fit-content;
+        height: 200px;
     }
         
 }
@@ -130,7 +139,7 @@
     .heading{
         font-size: 10px;
     }
-    
+
     .mainContent{
         max-width: max-content;
         height: 200px;
