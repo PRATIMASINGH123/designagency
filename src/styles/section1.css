@@ -58,11 +58,6 @@
 }
 
 
-@media only screen and (max-width : 415px ),
-            screen and (max-height : 897px){
-                
-            }
-
 @media only screen and (max-width : 376px) {
 
     .section1{
@@ -88,12 +83,17 @@
         
 }
 
-@media only screen and ( max-width : 361px){
-    .heading , .subHeading{
-        /* top: 230px; */
-        /* left: 70px; */
-    }
-}
+@media only screen and (max-width : 361px ),
+            screen and (max-height : 741px ){
+                .mainContent{
+                    height: 140px;
+                    margin-left: 3%;
+                }
+                .heading,.subHeading{
+                  top: 20px;
+                }
+            }
+
 
 @media only screen and (max-width : 357px){
     .mainContent{
