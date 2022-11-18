@@ -83,17 +83,6 @@
         
 }
 
-@media only screen and (max-width : 361px ),
-            screen and (max-height : 741px ){
-                .mainContent{
-                    height: 140px;
-                    margin-left: 3%;
-                }
-                .heading,.subHeading{
-                  top: 20px;
-                }
-            }
-
 
 @media only screen and (max-width : 357px){
     .mainContent{
