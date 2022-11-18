@@ -2,6 +2,7 @@
   height: 105vh;
 }
 
+
 .landingPageDesign{
   height: 94vh;
   background-color: #00FF00;
@@ -42,11 +43,11 @@
 
 @media only screen and ( max-width : 428px) {
   .landingPageDesign{
-    height: 27vh;
+    height: 41.5vh;
     border-radius: 0px 0px 0px 100px;
   }
   .landingPage{
-    height: 30vh;
+    height: 43vh;
   }
 }
 

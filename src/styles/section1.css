@@ -1,6 +1,5 @@
 .section1{
-    min-height: 80vh;
-    max-height: max-content;
+  height: 100vh;
     overflow-x: hidden;
 }
 
@@ -24,7 +23,6 @@
     font-size: calc(9px + (55 - 20) * (100vw - 320px) / (1920 - 320));
 }
 .subHeading{
-
     font-family: 'Gilroy-Bold', sans-serif;
     position: relative;
     top:100px;
@@ -56,6 +54,12 @@
 @media only screen and (max-width : 769px) {
 
 }
+
+@media only screen and ( max-width : 428px) {
+    .mainContent{
+        height: 300px;
+    }
+  }
 
 
 @media only screen and (max-width : 376px) {
