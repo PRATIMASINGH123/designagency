@@ -67,6 +67,14 @@
     height: 35vh;
   }
 }
+@media only screen and ( max-width : 361px ){
+  .landingPageDesign{
+    height: 25.2vh;
+  }
+  .landingPage{
+    height: 29vh;
+  }
+} 
 @media only screen and (max-width : 357px){
   .landingPageDesign{
     height: 35.5vh;
