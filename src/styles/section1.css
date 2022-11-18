@@ -75,6 +75,7 @@
 
     .heading , .subHeading {
         top:100px;
+        width: 50%; 
         left: 30px;
     }
 
